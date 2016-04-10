@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Positioning</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+
+    <div class="grand-dad">
+
+        <div class="dad">
+            <div class="brother"></div>
+            <div class="me"></div>
+            <div class="sister"></div>
+            <div class="sister2">
+                <div class="header-text">Task Tracker</div>
+                <div class="version" >v2.0</div>
+            </div>
+            <div class="cousin1">
+                <p><strong>Create a Task</strong></p>
+
+                <p>
+                    <span class="label">Task Name</span><br/>
+                    <input type="text" class="input" id="name"/>
+                </p>
+
+                <p>
+                    <span class="label">Task Date</span><br/>
+                    <input type="text" class="input" id="date"/>
+                </p>
+
+                <p>
+                    <span  class="label">Assigned To</span><br/>
+                    <input type="text" class="input" id="assigned"/>
+                </p>
+
+                <button id="add-task"><span class="submit-text">Submit</span></button>
+
+            </div>
+            <div class="cousin2">
+                <p class="task-text"> <strong>Existing Tasks</strong></p>
+                <div class="outer">
+                    <div class="inner">
+                        <table id="tasks">
+                            <!--<tbody>-->
+                            <!--<tr>-->
+                                <!--<td class="td-name">Task name</td>-->
+                                <!--<td class="td-date"><span class="muted-text">4/08/2016</span></td>-->
+                                <!--<td class="td-assigned">John Doe</td>-->
+                            <!--</tr>-->
+                            <!--<tr>-->
+                                <!--<td class="td-name">Task name</td>-->
+                                <!--<td class="td-date"><span class="muted-text">4/08/2016</span></td>-->
+                                <!--<td class="td-assigned">John Doe</td>-->
+                            <!--</tr>-->
+                            <!--<tr>-->
+                                <!--<td class="td-name">Task name</td>-->
+                                <!--<td class="td-date"><span class="muted-text">4/08/2016</span></td>-->
+                                <!--<td class="td-assigned">John Doe</td>-->
+                            <!--</tr>-->
+                            <!--<tr>-->
+                                <!--<td class="td-name">Task name</td>-->
+                                <!--<td class="td-date"><span class="muted-text">4/08/2016</span></td>-->
+                                <!--<td class="td-assigned">John Doe</td>-->
+                            <!--</tr>-->
+                            <!--<tr>-->
+                                <!--<td class="td-name">Task name</td>-->
+                                <!--<td class="td-date"><span class="muted-text">4/08/2016</span></td>-->
+                                <!--<td class="td-assigned">John Doe</td>-->
+                            <!--</tr>-->
+                            <!--<tr>-->
+                                <!--<td class="td-name">Task name</td>-->
+                                <!--<td class="td-date"><span class="muted-text">4/08/2016</span></td>-->
+                                <!--<td class="td-assigned">John Doe</td>-->
+                            <!--</tr>-->
+                            <!--<tr>-->
+                                <!--<td class="td-name">Task name</td>-->
+                                <!--<td class="td-date"><span class="muted-text">4/08/2016</span></td>-->
+                                <!--<td class="td-assigned">John Doe</td>-->
+                            <!--</tr>-->
+                            <!--<tr>-->
+                                <!--<td class="td-name">Task name</td>-->
+                                <!--<td class="td-date"><span class="muted-text">4/08/2016</span></td>-->
+                                <!--<td class="td-assigned">John Doe</td>-->
+                            <!--</tr>-->
+                            <!--</tbody>-->
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="javascripts/jquery.js"></script>
+    <script src="javascripts/main.js"></script>
+</body>
+</html>
