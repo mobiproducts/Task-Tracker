@@ -1,9 +1,9 @@
 [
-  {"name": "Test Task #1", "date": "12/01/2012", "assigned": "John Doe" },
-  {"name": "Test Task #2", "date": "12/02/2012", "assigned": "John Doe" },
-  {"name": "Test Task #3", "date": "12/03/2012", "assigned": "John Doe" },
-  {"name": "Test Task #4", "date": "12/04/2012", "assigned": "John Doe" },
-  {"name": "Test Task #5", "date": "12/05/2012", "assigned": "John Doe" },
-  {"name": "Test Task #6", "date": "12/06/2012", "assigned": "John Doe" },
-  {"name": "Test Task #7", "date": "12/07/2012", "assigned": "John Doe" }
+  {"name": "Wire Framing", "date": "05/01/2016", "assigned": "Rick Thoi" },
+  {"name": "Design", "date": "05/05/2016", "assigned": "Sam Walton" },
+  {"name": "Page Layout", "date": "05/8/2016", "assigned": "Bill Gates" },
+  {"name": "Product Page", "date": "05/12/2016", "assigned": "Steve Jobs" },
+  {"name": "Theme", "date": "05/18/2016", "assigned": "Tony Robbins" },
+  {"name": "Choose Fonts", "date": "05/22/2016", "assigned": "Warren Buffet" },
+  {"name": "AngularJS", "date": "05/26/2016", "assigned": "Roger Federer" }
 ]

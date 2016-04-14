@@ -1,20 +1,23 @@
 body{
     /*font-family: Arial;*/
     margin-top: 0;
-    margin-right: 20%;
-    margin-left: 20%;
+
+    margin-right: 19%;
+    margin-left: 19%;
 
 }
 
 .header-text{
-    font-size: 1.2em;
-    font-weight: 800;
+    font-size: 2.2em;
+    font-weight: 700;
     margin-bottom: 0px;
     font-family: Arial;
+    padding-top: .6em;
+
 }
 .version{
     margin-top: 0px;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 700;
     opacity: .5;
 }
@@ -34,7 +37,7 @@ body{
 
 
 .label{
-    font-size: .6em;
+    font-size: em;
     font-family: Arial;
     font-weight: 700;
 }
@@ -46,24 +49,28 @@ body{
     border-radius: 2px;
     /*background: #E8E7E6;*/
     background: #F0EFED;
-    width: 13em;
+    width: 93%;
     height: 1.5em;
+    font-size: 25px;
+    margin-bottom: .5em;
 }
 
 
-
+h2{
+    margin-bottom: 1.5em;
+}
 
 button{
     background-color: #1F1E1D;
     color: white;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
-
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
     margin-top: .7em;
     width: 4em;
     height: 2em;
     border: 0;
+    font-size: x-large;
 }
 .submit-text{
     font-family: Arial;
@@ -73,7 +80,7 @@ button{
 .me{
     background: lightgray;
     position: absolute;
-    top: 90px;
+    top: 128px;
     left: 5px;
     right: 5px;
     bottom: 5px;
@@ -85,15 +92,15 @@ button{
 .cousin1{
     background: white;
     position: absolute;
-    top: 90px;
+    top: 128px;
     font-size: small;
     font-family: "times r";
-    left: 5px;
+    left: 10px;
     right: 51%;
-    bottom: 22px;
+    bottom: 80px;
     text-align: left;
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 28px;
     z-index: 8;
 }
 .cousin2{
@@ -101,25 +108,24 @@ button{
     position: absolute;
     font-size: small;
     font-family: "times r";
-    top: 90px;
+    top: 128px;
     /*top: 125px;*/
-    left: 50%;
-    right: 5px;
-    bottom: 22px;
+    left: 49.7%;
+    right: 10px;
+    bottom: 80px;
     text-align: left;
     padding-top: 10px;
-    /*padding-left: 20px;*/
     z-index: 8;
 }
 .task-text{
-    padding-left: 10px;
+    padding-left: 19px;
 }
 .brother{
     background: white;
     position: absolute;
-    top: 5px;
-    left: 5px;
-    right: 5px;
+    top: 10px;
+    left: 10px;
+    right: 10px;
     bottom: 5px;
     text-align: left;
 
@@ -133,7 +139,7 @@ button{
     left: 0px;
     right: 0px;
     text-align: left;
-    padding-top: 90px;
+    padding-top: 128px;
     padding-left: 30px;
     z-index: 3;
 }
@@ -160,14 +166,14 @@ button{
     padding: 50px;
     background: lightgray;
     position: relative;
-    height: 17em;
+    height: 34em;
 }
 
 .outer{
     background: lightgray;
     border-radius: 3px;
     width: 91%;
-    height: 69%;
+    height: 65%;
     position:relative;
     z-index: 90;
     margin-left: auto;
@@ -177,13 +183,11 @@ button{
 .inner{
     background: white;
     position: absolute;
-    top: 3px;
-    left: 3px;
-    right: 3px;
+    top: 5px;
+    left: -10px;
+    right: -10px;
     bottom: 3px;
     z-index: 100;
-    /* width: 100%; */
-    /* height: 100%; */
     width: 96.5%;
     height: 96%;
     margin-left: auto;
@@ -192,19 +196,24 @@ button{
     /*overflow: scroll;*/
 }
 
-.td-name,.td-assigned{
-    font-weight: 700;
-
- }
 .td-name{
     padding-left: 1.2em;
+    font-weight: bolder;
+    font-size: 2em;
 }
-.muted-text{
-    opacity: .5;
+.td-date{
+    /*opacity: .5;*/
+    font-size: 1.6em;
+    font-weight: 300;
+    font-family: Arial;
+
 }
 
 .td-assigned{
     padding-left: 6em;
+    font-family: Arial;
+    font-size: 1.6em;
+    font-weight: bold;
 }
 
 table{
@@ -212,6 +221,7 @@ table{
     border-collapse: collapse;
     margin: 0 auto;
     width: 98%;
+    height: inherit;
     font-size: .6em;
     position: absolute;
     top: 0px;
@@ -230,6 +240,6 @@ table tr:nth-child(even) td{
     background-color: lightgray;
 }
 td{
-    padding-top: .9em;
-    padding-bottom: .9em;
+    padding-top: 0.6em;
+    padding-bottom: .6em;
 }
